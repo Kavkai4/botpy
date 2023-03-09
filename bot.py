@@ -5,9 +5,9 @@ import openai
 
 TELEGRAM_BOT_TOKEN = '6128999656:AAFHGvfM71ymkkaIrPubkBDkCI4qEwFh9VU'
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = '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'
 
-openai.api_key = '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'
+openai.api_key = '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'
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
@@ -35,7 +35,7 @@ async def ai(prompt):
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
 
-    await message.reply("Привет, я бот Игорь. Что Вас интересует?")
+    await message.reply("Привет, я бот от Ивана. Чем могу помочь?")
 
 
 @dp.message_handler()
