@@ -3,11 +3,11 @@ import logging
 
 import openai
 
-TELEGRAM_BOT_TOKEN = '6128999656:AAFHGvfM71ymkkaIrPubkBDkCI4qEwFh9VU'
+TELEGRAM_BOT_TOKEN = '6121401802:AAGzabdF-WtUVuchmh7w2Dg_mdX8DdldVdQ'
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = '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'
 
-openai.api_key = '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'
+openai.api_key = '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'
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
