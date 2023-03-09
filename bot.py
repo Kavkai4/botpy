@@ -5,9 +5,9 @@ import openai
 
 TELEGRAM_BOT_TOKEN = '6121401802:AAGzabdF-WtUVuchmh7w2Dg_mdX8DdldVdQ'
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = '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'
 
-openai.api_key = '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'
+openai.api_key = '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'
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
